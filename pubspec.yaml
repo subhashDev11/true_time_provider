@@ -1,6 +1,6 @@
 name: true_time_provider
-description: "A new Flutter project."
-version: 1.0.1
+description: "A secure and reliable true time provider for Flutter apps."
+version: 1.0.2
 homepage: https://github.com/subhashDev11/true_time_provider.git
 
 environment:
@@ -27,4 +27,4 @@ screenshots:
     path: example/screenshots/result2.png
 
   - description: 'Result of using Firestore cloud.'
-    path: example/screenshots/result2.png
+    path: example/screenshots/result1.png
