@@ -96,7 +96,7 @@ class NtpServerProvider {
       );
 
       if (offset == null) {
-        debugPrint("⚠️ Falling back: returning local time.");
+        debugPrint("⚠️ Falling back: NTP server time.");
         return null; // caller (TrueTimeProvider) handles fallback
       }
 

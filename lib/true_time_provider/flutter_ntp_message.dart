@@ -245,10 +245,11 @@ class _TrueTimeProviderMessage {
   /// Converts an unsigned byte to a short.  By default, Java assumes that
   /// a byte is signed.
   int unsignedByteToShort(int i) {
-    if ((i & 0x80) == 0x80)
+    if ((i & 0x80) == 0x80) {
       return 128 + (i & 0x7f);
-    else
+    } else {
       return i;
+    }
   }
 
   /// Will read 8 bytes of a message beginning at <code>pointer</code>

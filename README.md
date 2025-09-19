@@ -5,17 +5,17 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
-* [✨ Features](#-features)
-* [📦 Installation](#-installation)
-* [🚀 Usage](#-usage)
-* [🛠 How It Works](#-how-it-works)
-* [⚡ Example Use Cases](#-example-use-cases)
-* [🔧 Configuration](#-configuration)
-* [⚠️ Limitations](#️-limitations)
-* [🔮 Roadmap](#-roadmap)
-* [📄 License](#-license)
+* [Features](#-features)
+* [Installation](#-installation)
+* [Usage](#-usage)
+* [How It Works](#-how-it-works)
+* [Example Use Cases](#-example-use-cases)
+* [Configuration](#-configuration)
+* [Limitations](#️-limitations)
+* [Roadmap](#-roadmap)
+* [License](#-license)
 
 ---
 
@@ -30,7 +30,7 @@
 
 ---
 
-## 📦 Installation
+## Installation
 
 Add this to your `pubspec.yaml`:
 
@@ -47,7 +47,7 @@ flutter pub get
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Initialize at app startup
 
@@ -98,10 +98,10 @@ try NTP server
 
 ## ⚡ Example Use Cases
 
-* 🔒 Banking / Payment apps
-* 📜 Event logging / Audit trails
-* 🪪 Subscription & licensing apps
-* ⏳ Distributed systems
+* Banking / Payment apps
+* Event logging / Audit trails
+* Subscription & licensing apps
+* Distributed systems
 
 ---
 
@@ -119,7 +119,7 @@ final time = await TrueTimeProvider.instance.now(
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * NTP requires **UDP port 123** (may be blocked in some networks)
 * Firebase fallback requires internet access
@@ -128,7 +128,7 @@ final time = await TrueTimeProvider.instance.now(
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
 * [ ] Retry mechanism with exponential backoff
 * [ ] Cache last known good offset
@@ -137,7 +137,7 @@ final time = await TrueTimeProvider.instance.now(
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.
 
